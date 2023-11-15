@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
-import VideoApp from '@/components/VideoApp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,9 +15,7 @@ export default function RootLayout({ children }) {
      
       <body suppressHydrationWarning className={inter.className}>
         <NavBar/>
-        {/* <VideoApp> */}
         {children}
-        {/* </VideoApp> */}
 
         </body>
     </html>

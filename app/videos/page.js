@@ -1,10 +1,13 @@
 // "use client"
-// import VideoApp from '@/components/VideoApp'
+
 import VideoPlayer from '@/components/VideoPlayer'
 export default function page () {
   return (
-    <div className="w-[100%} sm:w-[80%] mx-auto">
+    <section className='w-full px-5 sm:px-0 sm:w-[80%] mx-auto'>
+      <div>
       <VideoPlayer/>
-    </div>
+      </div>
+     
+    </section>
   )
 }
